@@ -6,11 +6,6 @@ import ChatHistory from './components/ChatHistory/ChatHistory';
 
 class App extends Component {
   
-  constructor(props){
-    super(props);
-    console.log("")
-  }
-
   send() {
     console.log("hello");
     sendMsg("hello")
