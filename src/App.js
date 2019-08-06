@@ -14,8 +14,10 @@ class App extends Component {
   
   send(event) {
     if(event.keyCode === 13){
-      sendMsg(event.target.value);
-      event.target.value = '';
+      if(event.target.value){
+        sendMsg(event.target.value);
+        event.target.value = '';
+      }
     }
   }
 

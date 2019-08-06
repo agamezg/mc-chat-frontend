@@ -1,4 +1,4 @@
-var socket = new WebSocket("ws://localhost:8083/ws")
+var socket = new WebSocket("ws://mc.backendapp:8083/ws")
 
 let connect = cb => {
     console.log("Conectando...");
