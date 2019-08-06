@@ -13,7 +13,7 @@ class App extends Component {
   
   send() {
     console.log("hello");
-    sendMsg("cumbia")
+    sendMsg("te quiero ana")
   }
 
   componentDidMount() {
