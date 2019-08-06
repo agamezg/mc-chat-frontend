@@ -3,7 +3,7 @@ import "./Header.scss";
 
 const Header = () => (
     <div className="header">
-        <h2>Esto es un chat en tiempo real... cajeteala piola gatooo!!!</h2>
+        <h2>Esto es un chat en tiempo real... de verdad te quiero!!!</h2>
     </div>
 );
 
